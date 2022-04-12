@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/jatuinfo/jatureport/jrs/
+    - /bin/cp -R * $DEPLOYPATH
