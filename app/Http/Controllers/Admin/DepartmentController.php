@@ -29,7 +29,7 @@ class DepartmentController extends Controller
     }
 
     public function dept_list()
-    {
+    { 
         $dept_list = Department::all();
         return view('admin.show-departments',compact('dept_list'));
     }
